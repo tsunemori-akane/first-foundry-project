@@ -21,4 +21,6 @@ contract ERC20Test is Test {
         _token.mint(account_, amount_);
         assertEq(_token.totalSupply(), amount_);
     }
+
+    function test_burn(address account_, uint256 amount_) public { }
 }
